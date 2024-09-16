@@ -24,7 +24,7 @@ public class ScreenmatchApplication implements CommandLineRunner {
 		String json = consumoApi.obterDados("https://www.omdbapi.com/?t=" +
 				"gilmore+girls&apikey=92b5aef3");
 
-		//Imprimindo na tela os dados
+		//Imprimindo na tela o dado
 		System.out.println(json);
 
 		ConverteDados conversor = new ConverteDados();
